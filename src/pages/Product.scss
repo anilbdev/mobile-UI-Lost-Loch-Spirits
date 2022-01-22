@@ -46,6 +46,34 @@
     background-color: green;
     flex-basis: 60%;
     flex-grow: 1;
+    flex-wrap: wrap;
+
+    .badge{
+        flex-basis: 550px;
+        display: flex;
+        margin: 30px;
+    flex-grow: 1;
+        img{
+            height: 100px;
+            width: auto;
+        }
+    }
+    .table{
+       
+        flex-grow: 1;
+        table,th,td{
+            border-collapse: collapse;
+            border: 1px solid black;
+
+            th {
+                height: 30px;
+              }
+        }
+
+    }
+    .description{
+
+    }
     
   }
 }
