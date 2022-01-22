@@ -1,5 +1,6 @@
 import './App.css';
 import { useEffect, useState } from 'react';
+import LandingPage from './pages/LandingPage';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -16,7 +17,7 @@ function App() {
   return (
     <div className="App">
       {
-        loading ? <p>loading</p> : <p>Finished</p>
+        loading ? <p>loading</p> : <LandingPage/>
       }
 
     </div>
