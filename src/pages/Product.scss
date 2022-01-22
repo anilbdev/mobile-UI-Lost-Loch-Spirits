@@ -1,0 +1,51 @@
+.procut-container {
+  display: flex;
+  flex-wrap: wrap;
+//   height: 300px;
+
+  .hero-product {
+    display: flex;
+    background-color: red;
+    flex-basis: 400px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+
+    img{
+        margin-top: 30px;
+        height: 250px;
+        width: auto;
+        object-fit: contain;
+    }
+
+    .hero-product-name{
+        margin: 10px ;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .hero-product-price{
+        margin-bottom: 10px;
+    }
+    .hero-product-button{
+        margin-bottom: 10px;
+        
+        button{
+            height: 40px;
+            width: 140px;
+            background-color: #b8874d;
+            color: #fff;
+            border: 0px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+    }
+  }
+
+  .desc-product {
+    display: flex;
+    background-color: green;
+    flex-basis: 60%;
+    flex-grow: 1;
+    
+  }
+}

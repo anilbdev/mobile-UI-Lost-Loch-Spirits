@@ -1,19 +1,23 @@
-import React from 'react';
+import React from "react"
 //* file impoerts//
-import './LandingPage.scss'
-import Header from '../components/Header';
-
-
+import "./LandingPage.scss"
+import Header from "../components/Header"
+import Product from "./Product"
 
 function LandingPage() {
-  return <div>
+  return (
+    <div>
       <div className="header">
-          <Header/>
+        <Header />
       </div>
       <div className="product">
-          product
+          <Product/>
       </div>
-  </div>;
+      <div className="details">details</div>
+      <div className="related-products">related products</div>
+      <div className="footer">footer</div>
+    </div>
+  )
 }
 
-export default LandingPage;
+export default LandingPage
