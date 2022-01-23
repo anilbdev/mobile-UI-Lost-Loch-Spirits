@@ -1,0 +1,15 @@
+.loading-page{
+    background-color: #1d1d1d;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    transition      : all 1s ease;
+    
+
+    img{
+        height: 90px;
+        width: 350px;
+    }
+}
