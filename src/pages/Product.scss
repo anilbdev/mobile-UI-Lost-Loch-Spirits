@@ -7,7 +7,7 @@
 
   .hero-product {
     display: flex;
-    background-color: red;
+    // background-color: red;
     flex-basis: 400px;
     flex-grow: 1;
     display: flex;
@@ -39,13 +39,17 @@
         border: 0px;
         border-radius: 5px;
         font-size: 16px;
+
+        &:hover{
+          cursor: pointer;
+        }
       }
     }
   }
 
   .desc-product {
     display: flex;
-    background-color: green;
+    // background-color: green;
     flex-basis: 60%;
     flex-grow: 1;
     flex-wrap: wrap;
@@ -92,7 +96,7 @@
         th,
         td {
           border-collapse: collapse;
-          border: 1px solid black;
+          border: 1px solid #8b8e93;
           
           th,td {
               height: 30px;
