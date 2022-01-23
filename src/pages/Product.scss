@@ -84,6 +84,23 @@
     .description {
         height: 200px;
         overflow-y: auto;
+        text-align: start;
+        padding-left: 15px;
+
+        .main-heading{
+          color: #8b8e93;
+          font-size: 30px;
+          margin: 5px 0px;
+          font-weight: 800;
+        }
+        .sub-heading{
+          font-size: 18px;
+          font-weight: 500;
+        }.content{
+          font-size: 18px;
+          color: #8b8e93;
+          
+        }
     }
   }
 }
