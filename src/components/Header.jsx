@@ -39,19 +39,31 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
     <div className={"menu " + (menuOpen && "active")}>
       <ul>
         <li onClick={() => setMenuOpen(false)}>
-          <a href="#">Home</a>
+          <a href="#">SHOP</a>
         </li>
         <li onClick={() => setMenuOpen(false)}>
-          <a href="#">Portfolio</a>
+          <a href="#">ABOUT US</a>
         </li>
         <li onClick={() => setMenuOpen(false)}>
-          <a href="#">Works</a>
+          <a href="#">EXPERIENCES</a>
         </li>
         <li onClick={() => setMenuOpen(false)}>
-          <a href="#">Testimonials</a>
+          <a href="#">CONTRACT DISTILLERS</a>
         </li>
         <li onClick={() => setMenuOpen(false)}>
-          <a href="#">Contact</a>
+          <a href="#">PRODUCTS</a>
+        </li>
+        <li onClick={() => setMenuOpen(false)}>
+          <a href="#">STOCKISTS</a>
+        </li>
+        <li onClick={() => setMenuOpen(false)}>
+          <a href="#">BLOG</a>
+        </li>
+        <li onClick={() => setMenuOpen(false)}>
+          <a href="#">BLOG</a>
+        </li>
+        <li onClick={() => setMenuOpen(false)}>
+          <a href="#">PRIVACY POLICY</a>
         </li>
       </ul>
     </div>

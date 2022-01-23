@@ -80,10 +80,11 @@
       margin: 0;
       padding: 0;
       list-style: none;
-      font-size: 30px;
-      color: #fff;
-      font-weight: 300;
+      font-size: 15px;
+      color: #dca386;
+      font-weight: 500;
       width: 60%;
+      text-align: start;
 
       li {
         margin-bottom: 25px;
@@ -95,7 +96,8 @@
         }
 
         &:hover {
-          font-weight: 500;
+          // font-weight: 800;
+          opacity: 0.3;
         }
       }
     }
