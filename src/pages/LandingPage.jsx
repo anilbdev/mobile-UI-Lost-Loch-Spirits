@@ -3,6 +3,7 @@ import React from "react"
 import "./LandingPage.scss"
 import Header from "../components/Header"
 import Product from "./Product"
+import OtherProducts from "./OtherProducts"
 
 function LandingPage() {
   return (
@@ -13,8 +14,10 @@ function LandingPage() {
       <div className="product">
           <Product/>
       </div>
-      <div className="details">details</div>
-      <div className="related-products">related products</div>
+      <div className="details">
+        <h4>Other Products</h4>
+        <OtherProducts/>
+      </div>
       <div className="footer">footer</div>
     </div>
   )

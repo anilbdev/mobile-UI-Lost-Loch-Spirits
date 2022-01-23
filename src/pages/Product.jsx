@@ -1,5 +1,11 @@
 import React from "react"
 import "./Product.scss"
+const data = {
+  productId: "gin01",
+  batchId: "B12",
+  distillerName: "eenoolooapik",
+  bottlingTime: "1642516201094",
+}
 
 function Product() {
   return (
@@ -16,44 +22,56 @@ function Product() {
         </span>
       </div>
       <div className="desc-product">
-          
-        <div className="badge">
-          <img
-            src="https://lostlochspirits.com/wp-content/uploads/2021/05/eenoo-page-awards-2021-update-300x300-1.png"
-            alt=""
-          />
-        </div>
-        <div className="table">
-          <table>
-            <tr>
-              <th>Name</th>
-              <th>Age</th>
-              
-            </tr>
-            <tr>
-              <td>Anom</td>
-              <td>19</td>
-            
-            </tr>
-            <tr>
-              <td>Anom</td>
-              <td>19</td>
-            
-            </tr>
-            <tr>
-              <td>Anom</td>
-              <td>19</td>
-            
-            </tr>
-            <tr>
-              <td>Anom</td>
-              <td>19</td>
-            
-            </tr>
-          </table>
+        <div className="table-badge">
+          <div className="badge">
+            <img
+              src="https://lostlochspirits.com/wp-content/uploads/2021/05/eenoo-page-awards-2021-update-300x300-1.png"
+              alt=""
+            />
+          </div>
+          <div className="table">
+            <table>
+              <tr>
+                <th>ProductID</th>
+                <td>{data.productId}</td>
+              </tr>
+              <tr>
+                <th>Batch ID</th>
+                <td>{data.batchId}</td>
+              </tr>
+              <tr>
+                <th>Distiller Name</th>
+                <td>{data.distillerName}</td>
+              </tr>
+              <tr>
+                <th>Bottling Time</th>
+                <td>{data.bottlingTime}</td>
+              </tr>
+            </table>
+          </div>
         </div>
         <div className="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione culpa sed quia eaque at? Neque, soluta molestiae mollitia illum porro sapiente, tempora adipisci corporis iusto necessitatibus sit excepturi ab optio. Asperiores ducimus tenetur praesentium doloribus voluptatem repudiandae in ipsam dolores quod, sequi nobis veniam, expedita quibusdam magnam soluta nemo voluptatibus!
+          eeNoo, From the old Scots tongue; eenoo – just now, at the present
+          time, in a short time, at once. Scottish gin is at the forefront of a
+          recent gin renaissance and so we thought eeNoo a fine and fitting name
+          for our gin, as the present time is the heyday of gin production in
+          Scotland. When we crafted our gin, eeNoo, we wanted to create a
+          flavour profile that encompassed the essence of a traditional gin
+          whilst embracing flavours of the Scottish Highlands. eeNoo is
+          distilled with Royal Deeside honey. The flavour profile of our honey
+          is unique to the local area and is made up of heather, willow herb and
+          clover pollen. To complement the honey we add heather flowers and
+          other local botanicals. We forage a percentage of our brambleberries,
+          raspberries and rosehip from the Deeside area and source the remainder
+          from berry farms in Aberdeenshire and Angus. As Scottish juniper is in
+          a critical state of decline, we source the finest juniper from the
+          Italian highlands. We then add coriander seeds, angelica root,
+          liquorice root, orange and lemon peel to give our gin a traditional
+          yet smooth fruity profile. Water from an ancient spring in the
+          Cairngorms National Park is added to the mix. The water is some of the
+          purest in the world and spends 50 years being gently filtered through
+          layers of underground rocks and crevices before becoming part of our
+          gin.
         </div>
       </div>
     </div>
