@@ -19,7 +19,7 @@ This is a responsive mobile UI of product landing page of Lost Loch Spirits Web 
 **Tech Stack**
  - React
  - HTML
- - CSS
+ - SCSS
  - JavaScript
  - Material UI
  
