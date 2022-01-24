@@ -35,22 +35,24 @@ function Product() {
           {/* 2)table-section */}
           <div className="table">
             <table>
-              <tr>
-                <th>ProductID</th>
-                <td>{data.productId}</td>
-              </tr>
-              <tr>
-                <th>Batch ID</th>
-                <td>{data.batchId}</td>
-              </tr>
-              <tr>
-                <th>Distiller Name</th>
-                <td>{data.distillerName}</td>
-              </tr>
-              <tr>
-                <th>Bottling Time</th>
-                <td>{data.bottlingTime}</td>
-              </tr>
+              <tbody>
+                <tr>
+                  <th>ProductID</th>
+                  <td>{data.productId}</td>
+                </tr>
+                <tr>
+                  <th>Batch ID</th>
+                  <td>{data.batchId}</td>
+                </tr>
+                <tr>
+                  <th>Distiller Name</th>
+                  <td>{data.distillerName}</td>
+                </tr>
+                <tr>
+                  <th>Bottling Time</th>
+                  <td>{data.bottlingTime}</td>
+                </tr>
+              </tbody>
             </table>
           </div>
         </div>
@@ -65,7 +67,7 @@ function Product() {
             we thought eeNoo a fine and fitting name for our gin, as the present
             time is the heyday of gin production in Scotland.
           </p>
-          <p className="content">
+          <div className="content">
             <p>
               When we crafted our gin, eeNoo, we wanted to create a flavour
               profile that encompassed the essence of a traditional gin whilst
@@ -88,7 +90,7 @@ function Product() {
             added to the mix. The water is some of the purest in the world and
             spends 50 years being gently filtered through layers of underground
             rocks and crevices before becoming part of our gin.
-          </p>
+          </div>
         </div>
       </div>
     </div>
