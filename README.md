@@ -9,10 +9,10 @@ This is a responsive mobile UI of product landing page of Lost Loch Spirits Web 
  - Then run **npm start** to open the project in your browser.
  
 
->  **You can view the Web app here,** [ Click me](google.com)
+>  **You can view the Web app here,** [ Click me](https://lost-loch-spirits.herokuapp.com/)
 > 
 > 
-> The working of app as short video [here](google.com)
+> The working of app as short video [here](https://www.loom.com/share/43d1cb7378ca44a8ac62037f8b9a30fa)
 
  
 
