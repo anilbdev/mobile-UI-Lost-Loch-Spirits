@@ -8,7 +8,7 @@ import Footer from "../components/Footer"
 
 function LandingPage() {
   return (
-    <div>
+    <div className="landing-page-container">
       <div className="header">
         <Header />
       </div>

@@ -1,13 +1,12 @@
-@import '../global.scss';
+@import "../global.scss";
 
 .procut-container {
   display: flex;
   flex-wrap: wrap;
-  //   height: 300px;
 
   .hero-product {
     display: flex;
-    // background-color: red;
+
     flex-basis: 400px;
     flex-grow: 1;
     display: flex;
@@ -40,7 +39,7 @@
         border-radius: 5px;
         font-size: 16px;
 
-        &:hover{
+        &:hover {
           cursor: pointer;
         }
       }
@@ -49,33 +48,27 @@
 
   .desc-product {
     display: flex;
-    // background-color: green;
+
     flex-basis: 60%;
     flex-grow: 1;
     flex-wrap: wrap;
     flex-direction: column;
 
     .table-badge {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        padding-top: 100px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding-top: 100px;
 
-        @include mobile{
-          // display: flex;
-          // flex-direction: column;
-          padding-top: 30px;
-        }
+      @include mobile {
+        padding-top: 30px;
+      }
       .badge {
-        
-        // display: flex;
-        // margin: 30px;
         flex-basis: 50%;
-        @include mobile{
+        @include mobile {
           flex-basis: 80%;
-
         }
-        
+
         img {
           height: 150px;
           width: auto;
@@ -83,52 +76,61 @@
       }
       .table {
         flex-basis: 50%;
-        
-        @include mobile{
+
+        @include mobile {
           flex-basis: 0%;
           margin: 30px 0px;
-
         }
 
-
-      
         table,
         th,
         td {
           border-collapse: collapse;
           border: 1px solid #8b8e93;
-          
-          th,td {
-              height: 30px;
-              padding: 5px;
+
+          th,
+          td {
+            height: 30px;
+            padding: 5px;
           }
         }
       }
     }
     .description {
-        height: 200px;
-        overflow-y: auto;
-        text-align: start;
-        padding-left: 15px;
+      height: 200px;
+      // overflow-y: auto;
+      text-align: start;
+      padding-left: 15px;
+      overflow-y: scroll;
+      scrollbar-width: none; /* Firefox */
+      -ms-overflow-style: none; /* Internet Explorer 10+ */
 
-        .main-heading{
-          color: #8b8e93;
-          font-size: 30px;
-          margin: 5px 0px;
-          font-weight: 800;
+      &::-webkit-scrollbar {
+        /* WebKit */
+        width: 0;
+        height: 0;
+      }
+      @include mobile {
+        height: 350px;
+      }
+      .main-heading {
+        color: #8b8e93;
+        font-size: 30px;
+        margin: 5px 0px;
+        font-weight: 800;
 
-          @include mobile{
-            font-size: 24px;
-          }
+        @include mobile {
+          font-size: 24px;
         }
-        .sub-heading{
-          font-size: 18px;
-          font-weight: 500;
-        }.content{
-          font-size: 18px;
-          color: #8b8e93;
-          
-        }
+      }
+      .sub-heading {
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .content {
+        font-size: 18px;
+        color: #8b8e93;
+      }
     }
   }
 }
